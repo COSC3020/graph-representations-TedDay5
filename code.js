@@ -9,7 +9,7 @@ function convertToAdjList(adjMatrix) {
                 array.push(i);
             }
         }
-        list[i] = array;
+        list[n] = array;
     }
     return list;
 }
