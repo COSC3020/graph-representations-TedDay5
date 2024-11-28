@@ -15,7 +15,23 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+convertToAdjList Runtime complexity: $O(n^2)$
+
+$n$ is the number of nodes in adjMatrix.length. 
+
+convertToAdjMatrix Runtime complexity: $O(n^2)$
+
+$n$ is the number of nodes in adjlist.length. 
+
+Both runtime complexities would be $O(n^2)$ since in order to convert properly, both functions need to be able to iterate through both dimensions with each dimesion being $O(n)$ time complexity.
+In both cases, they would be dependant on the number of vertices in the graph.
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
